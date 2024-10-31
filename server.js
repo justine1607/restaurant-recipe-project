@@ -10,7 +10,10 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const allowedOrigins = ['http://localhost:5173', 'https://my-restaurantrecipe.vercel.app','https://restaurant-recipe-1.onrender.com'];
+const allowedOrigins = [ 'http://localhost:5173',
+    'https://my-restaurantrecipe.vercel.app',
+    'https://restaurant-recipe-project.vercel.app', // Add your frontend URL
+    'https://restaurant-recipe-1.onrender.com'];
 app.use(cors({
     origin: allowedOrigins,
 }));
