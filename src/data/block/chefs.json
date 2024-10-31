@@ -1,0 +1,28 @@
+{
+  "component": "ChefsComponent",
+  "data": {
+    "chefs": {
+      "title": "Our Chefs",
+      "items": [
+        {
+          "id": "17",
+          "image": "/assets/images/chef1.png",
+          "name": "Miyoko Schinner",
+          "label": "Head Chief"
+        },
+        {
+          "id": "18",
+          "image": "/assets/images/chef2.png",
+          "name": "Miyoko Schinner",
+          "label": "Head Chief"
+        },
+        {
+          "id": "19",
+          "image": "/assets/images/chef3.png",
+          "name": "Miyoko Schinner",
+          "label": "Head Chief"
+        }
+      ]
+    }
+  }
+}

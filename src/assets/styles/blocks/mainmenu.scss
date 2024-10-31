@@ -1,0 +1,62 @@
+@import "src/assets/styles/core/mixin";
+.block-main_menu {
+  padding-top: 2rem;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .text-title {
+    grid-column:span 3;
+    text-align: center;
+    color: white;
+    transform: translateX(-10%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+    &.animate {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .card {
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    &.animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .image-container {
+      max-width: 100%;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+    .text-container {
+      padding: 1rem;
+    }
+
+    .theme-h3 {
+      font-size: $fontSize;
+    }
+
+    .price {
+      color: $color1;
+    }
+    .cta {
+      margin-left: unset;margin-right: unset;
+      background-color: unset;
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .block-main_menu {
+    .grid {
+      grid-template-columns: 1fr;
+      .text-title {
+        grid-column: span 1;
+      }
+    }
+  }
+}

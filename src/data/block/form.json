@@ -1,0 +1,53 @@
+{
+  "component": "FormComponent",
+  "data": {
+    "form": {
+      "id": "6",
+      "title": "Reservation",
+      "items": [
+        {
+          "id": 1,
+          "type": "text",
+          "label": "First Name",
+          "placeholder": "Juan",
+          "is_required": true
+        },
+        {
+          "id": 2,
+          "type": "text",
+          "label": "Last Name",
+          "placeholder": "Dela Cruz",
+          "is_required": true
+        },
+        {
+          "id": 3,
+          "type": "email",
+          "label": "Email",
+          "placeholder": "example@example.com",
+          "is_required": true
+        },
+        {
+          "id": 4,
+          "type": "tel",
+          "label": "Phone",
+          "placeholder": "+63",
+          "is_required": true
+        },
+        {
+          "id": 5,
+          "type": "number",
+          "label": "Number of Guest",
+          "placeholder": "1",
+          "is_required": true
+        },
+        {
+          "id": 6,
+          "type": "textarea",
+          "label": "Message",
+          "placeholder": "hello",
+          "is_required": true
+        }
+      ]
+    }
+  }
+}

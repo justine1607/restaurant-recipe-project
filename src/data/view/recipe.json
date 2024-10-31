@@ -1,0 +1,145 @@
+{
+  "title": "5 recipes you'll surely love",
+  "recipe": [
+    {
+      "id": "1",
+      "count":1,
+      "image": "/assets/images/recipe-images/1.png",
+      "headline": "Grilled Cabbage \"Steaks\"\n",
+      "overline": "Course: Side Dish Cuisine: Vegetarian Servings: 8 servings Calories: 110 kcal",
+      "ingredients": [
+        "1 large head of cabbage, cut into ½\"-thick rounds",
+        "Extra-virgin olive oil, for brushing",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch crushed red pepper flakes",
+        "Chopped cooked bacon, for serving",
+        "Crumbled blue cheese, for serving",
+        "Freshly chopped scallions, for serving",
+        "Ranch dressing, for serving"
+      ],
+      "steps": [
+        {
+          "step": "step 1:",
+          "description": "Heat grill over medium-high heat. Brush cabbage steaks on both sides with oil and season with salt, pepper, and red pepper flakes. Place on grill and cook until tender, about 5 minutes per side."
+        } ,
+        {
+          "step": "step 2:",
+          "description": "Top with bacon, blue cheese, and scallions and drizzle with ranch dressing before serving."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "count":2,
+      "image": "/assets/images/recipe-images/2.png",
+      "headline": "Beef & Rice Stuffed Poblano Peppers",
+      "overline": "Course: Side Dish Cuisine: Vegetarian Servings: 8 servings Calories: 110 kcal",
+      "ingredients": [
+        "1 large head of cabbage, cut into ½\"-thick rounds",
+        "Extra-virgin olive oil, for brushing",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch crushed red pepper flakes",
+        "Chopped cooked bacon, for serving",
+        "Crumbled blue cheese, for serving",
+        "Freshly chopped scallions, for serving",
+        "Ranch dressing, for serving"
+      ],
+      "steps": [
+        {
+          "step": "step 1:",
+          "description": "Heat grill over medium-high heat. Brush cabbage steaks on both sides with oil and season with salt, pepper, and red pepper flakes. Place on grill and cook until tender, about 5 minutes per side."
+        } ,
+        {
+          "step": "step 2:",
+          "description": "Top with bacon, blue cheese, and scallions and drizzle with ranch dressing before serving."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "count":3,
+      "image": "/assets/images/recipe-images/3.png",
+      "headline": "Loaded Mediterranean Sweet Potato Fries",
+      "overline": "Course: Side Dish Cuisine: Vegetarian Servings: 8 servings Calories: 110 kcal",
+      "ingredients": [
+        "1 large head of cabbage, cut into ½\"-thick rounds",
+        "Extra-virgin olive oil, for brushing",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch crushed red pepper flakes",
+        "Chopped cooked bacon, for serving",
+        "Crumbled blue cheese, for serving",
+        "Freshly chopped scallions, for serving",
+        "Ranch dressing, for serving"
+      ],
+      "steps": [
+        {
+          "step": "step 1:",
+          "description": "Heat grill over medium-high heat. Brush cabbage steaks on both sides with oil and season with salt, pepper, and red pepper flakes. Place on grill and cook until tender, about 5 minutes per side."
+        } ,
+        {
+          "step": "step 2",
+          "description": "Top with bacon, blue cheese, and scallions and drizzle with ranch dressing before serving."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "count":4,
+      "image": "/assets/images/recipe-images/4.png",
+      "headline": "Cheesy Garlic Zucchini Steaks",
+      "overline": "Course: Side Dish Cuisine: Vegetarian Servings: 8 servings Calories: 110 kcal",
+      "ingredients": [
+        "1 large head of cabbage, cut into ½\"-thick rounds",
+        "Extra-virgin olive oil, for brushing",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch crushed red pepper flakes",
+        "Chopped cooked bacon, for serving",
+        "Crumbled blue cheese, for serving",
+        "Freshly chopped scallions, for serving",
+        "Ranch dressing, for serving"
+      ],
+      "steps": [
+        {
+          "step": "step 1:",
+          "description": "Heat grill over medium-high heat. Brush cabbage steaks on both sides with oil and season with salt, pepper, and red pepper flakes. Place on grill and cook until tender, about 5 minutes per side."
+        } ,
+        {
+          "step": "step 2:",
+          "description": "Top with bacon, blue cheese, and scallions and drizzle with ranch dressing before serving."
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "count":5,
+      "image": "/assets/images/recipe-images/5.png",
+      "headline": "Grilled Romaine Wedge",
+      "overline": "Course: Side Dish Cuisine: Vegetarian Servings: 8 servings Calories: 110 kcal",
+      "ingredients": [
+        "1 large head of cabbage, cut into ½\"-thick rounds",
+        "Extra-virgin olive oil, for brushing",
+        "Kosher salt",
+        "Freshly ground black pepper",
+        "Pinch crushed red pepper flakes",
+        "Chopped cooked bacon, for serving",
+        "Crumbled blue cheese, for serving",
+        "Freshly chopped scallions, for serving",
+        "Ranch dressing, for serving"
+      ],
+      "steps": [
+        {
+          "step": "step 1:",
+          "description": "Heat grill over medium-high heat. Brush cabbage steaks on both sides with oil and season with salt, pepper, and red pepper flakes. Place on grill and cook until tender, about 5 minutes per side."
+        } ,
+        {
+          "step": "step 2:",
+          "description": "Top with bacon, blue cheese, and scallions and drizzle with ranch dressing before serving."
+        }
+      ]
+    }
+  ]
+}

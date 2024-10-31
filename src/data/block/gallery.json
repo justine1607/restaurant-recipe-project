@@ -1,0 +1,17 @@
+{
+  "component": "GalleryComponent",
+  "data": {
+    "gallery": {
+      "id": "2",
+      "title": "gallery",
+      "items": [
+        {
+          "image1": "/assets/images/pic4.png",
+          "image2": "/assets/images/pic2.png",
+          "image3": "/assets/images/pic3.png",
+          "image4": "/assets/images/pic4.png"
+        }
+      ]
+    }
+  }
+}

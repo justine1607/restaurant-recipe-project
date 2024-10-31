@@ -1,0 +1,12 @@
+{
+  "type": "block",
+  "component": "StoryComponent",
+  "data": {
+    "story": {
+      "id": "10",
+      "image": "/assets/images/ourstory.png",
+      "headline": "ours story",
+      "description": "Lorem ipsum dolor sit,\namet consectetur adipisicing\nelit. Vitae eveniet\ndebitis inventore\ndeserunt, hic sit\ndolorum quo quis animi\nconsequatur? Cumque quae,\nitaque enim perferendis\nin quos tenetur incidunt non.Lorem ipsum dolor sit,\namet consectetur adipisicing\nelit. Vitae eveniet\ndebitis inventore\ndeserunt, hic sit\ndolorum quo quis animi\nconsequatur? Cumque quae,\nitaque enim perferendis\nin quos tenetur incidunt non."
+    }
+  }
+}

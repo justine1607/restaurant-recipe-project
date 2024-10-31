@@ -1,0 +1,358 @@
+{
+  "home": [
+    {
+      "component": "LinksComponent",
+      "data": {
+        "links": [
+          {
+            "text": "Home",
+            "to": "/",
+            "submenu": [
+              {
+                "text": "Sub Link 1.1",
+                "to": "/main-link-1/sub-link-1"
+              },
+              {
+                "text": "Sub Link 1.2",
+                "to": "/main-link-1/sub-link-2"
+              }
+            ]
+          },
+          {
+            "text": "Menu",
+            "to": "/menu"
+          },
+          {
+            "text": "Recipe",
+            "to": "/recipe"
+          },
+          {
+            "text": "About",
+            "to": "/about"
+          },
+          {
+            "text": "Contact Us",
+            "to": "/contact"
+          }
+        ]
+      }
+    },
+    {
+      "component": "HeroComponent",
+      "data": {
+        "hero": {
+          "id": "6",
+          "image": "/assets/images/1.png",
+          "headline": "enjoy <span style='color: #D89756; font-weight: bold; text-decoration: underline; text-decoration-color: #28a745;'>delicious</span> food for a <span style='color: #D89756; font-weight: bold; text-decoration: underline; text-decoration-color: #28a745;'>healthy</span> living Lifestyle",
+          "head": "",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque diam ac diam rutrum, nec vestibulum libero scelerisque. Donec nunc quam, bibendum id magna sit amet, mattis pretium mauris. Praesent a est eu arcu vulputate hendrerit sit amet ut tellus. Nulla facilisi. Morbi eleifend viverra risus, quis sagittis sem pellentesque ac.",
+          "button": "book a table"
+        }
+      }
+    },
+    {
+      "component": "RecipeComponent",
+      "data": {
+        "media": [
+          {
+            "id": "6",
+            "image": "/assets/images/21.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          },
+          {
+            "id": "6",
+            "image": "/assets/images/25.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          },
+          {
+            "id": "6",
+            "image": "/assets/images/25.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          },
+          {
+            "id": "6",
+            "image": "/assets/images/21.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          },
+          {
+            "id": "6",
+            "image": "/assets/images/25.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          },
+          {
+            "id": "6",
+            "image": "/assets/images/25.png",
+            "headline": "Low Carb Caesar Salad with Chicken",
+            "title": "Ingredients",
+            "text": "<ul>\r\n<li><span style=\"color: #eb473d;\">Meat</span></li>\r\n<li>1 lb Chicken breasts</li>\r\n<li>1 oz Anchovies in olive oil</li>\r\n<li><span style=\"color: #eb473d;\">Produce</span></li>\r\n<li>4 cloves Garlic, fresh</li>\r\n<li>6 cups Romaine lettuce</li>\r\n<li><span style=\"color: #eb473d;\">Condiments</span></li>\r\n<li>1 Caesar salad dressing, Low Carb Homemade</li>\r\n<li>1 tsp Dijon mustard</li>\r\n<li>2 tbsp Lemon juice</li>\r\n<li>3/4 cup Mayonnaise</li>\r\n<li><span style=\"color: #eb473d;\">Baking & Spices</span></li>\r\n<li>1/4 tsp Black pepper</li>\r\n<li>1 Pepper</li>\r\n<li>1 Salt</li>\r\n<li>1 pinch Salt</li>\r\n<li><span style=\"color: #eb473d;\">Dairy</span></li>\r\n<li>1/2 cup Parmesan crisps</li>\r\n<li>1/4 cup Parmesan cheese</li>\r\n<li>1/2 cup Parmesan cheese, grated</li>\r\n</ul>"
+          }
+        ],
+        "headline": "",
+         "head": "",
+        "text": ""
+      }
+    },
+    {
+      "component": "SpecialtiesComponent",
+      "data": {
+        "title": "house specialties",
+        "specialties": [
+          {
+            "id": "7",
+            "image": "/assets/images/image1.png",
+            "description": "Roasted Miniature Eggplant with CreamyT ahini and Plum Salsa",
+            "price": "P210",
+            "starImg": "src/assets/images/svg-stars.png"
+          },
+          {
+            "id": "8",
+            "image": "/assets/images/image2.png",
+            "description": "Warm Lentlis with Wilted Chard, Roasted Beefs and Goat Cheese",
+            "price": "P210",
+            "starImg": "src/assets/images/svg-stars.png"
+
+          },
+          {
+            "id": "9",
+            "image": "/assets/images/image3.png",
+            "description": "Chopsuey with Chicken and Broccoli",
+            "price": "P210",
+            "starImg": "src/assets/images/svg-stars.png"
+
+          }
+        ]
+      }
+    },
+    {
+      "component": "CarouselsComponent",
+      "data": {
+        "title": "5 Vegetarian Recipe Everyone will Enjoy",
+        "carousels": [
+          {
+            "id": "1",
+            "image": "/assets/images/image4.png",
+            "classImage": "active",
+            "classDescription": "active",
+            "headline": "Lentil Frittata",
+            "classHeadline": "active",
+            "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too.",
+            "button": "see recipe"
+          },
+          {
+            "id": "2",
+            "image": "/assets/images/Rectangle 70.png",
+            "headline": "Chille",
+            "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too.",
+            "button": "see recipe"
+          },
+          {
+            "id": "3",
+            "image": "/assets/images/Rectangle 71.png",
+            "headline": "Lentil Frittata",
+            "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too.",
+            "button": "see recipe"
+          },
+          {
+            "id": "4",
+            "image": "/assets/images/Rectangle 72.png",
+            "headline": "Lentil Frittata",
+            "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too.",
+            "button": "see recipe"
+          },
+          {
+            "id": "5",
+            "image": "/assets/images/Rectangle 73.png",
+            "headline": "Lentil Frittata",
+            "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too.",
+            "button": "see recipe"
+          }
+        ]
+      }
+    },
+    {
+      "component": "StoryComponent",
+      "data": {
+        "story": {
+          "id": "10",
+          "image": "/assets/images/ourstory.png",
+          "headline": "ours story",
+          "description": "Lorem ipsum dolor sit,\namet consectetur adipisicing\nelit. Vitae eveniet\ndebitis inventore\ndeserunt, hic sit\ndolorum quo quis animi\nconsequatur? Cumque quae,\nitaque enim perferendis\nin quos tenetur incidunt non.",
+          "price": "P210"
+        }
+      }
+    },
+    {
+      "component": "MainMenuComponent",
+      "data": {
+        "title": "Main Menu",
+        "mainMenu": [
+          {
+            "id": "11",
+            "image": "/assets/images/image5.png",
+            "description": "Roasted Miniature Eggplant with CreamyT ahini and Plum Salsa",
+            "price": "P210"
+          },
+          {
+            "id": "12",
+            "image": "/assets/images/image6.png",
+            "description": "Warm Lentlis with Wilted Chard, Roasted Beefs and Goat Cheese",
+            "price": "P210"
+          },
+          {
+            "id": "13",
+            "image": "/assets/images/image7.png",
+            "description": "Chopsuey with Chicken and Broccoli",
+            "price": "P210"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ReviewsComponent",
+      "data": {
+        "title": " What people says about our dish",
+        "reviews": [
+          {
+            "id": "14",
+            "star": "/assets/images/svg-stars.png",
+            "colon": "/assets/images/svg-colon.png",
+            "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+            "avatar": "/assets/images/svg-colon.png",
+            "name": "costumer name"
+          },
+          {
+            "id": "15",
+            "star": "/assets/images/svg-stars.png",
+            "colon": "/assets/images/svg-colon.png",
+            "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+            "avatar": "/assets/images/svg-colon.png",
+            "name": "costumer name"
+          },
+          {
+            "id": "16",
+            "star": "/assets/images/svg-stars.png",
+            "colon": "/assets/images/svg-colon.png",
+            "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+            "avatar": "/assets/images/svg-colon.png",
+            "name": "costumer name"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ChefsComponent",
+      "data": {
+        "title": "Our Chefs",
+        "chefs": [
+          {
+            "id": "17",
+            "image": "/assets/images/chef1.png",
+            "name": "Miyoko Schinner\nHead chief",
+            "label": "Head Chief"
+          },
+          {
+            "id": "18",
+            "image": "/assets/images/chef2.png",
+            "name": "Miyoko Schinner\nHead chief",
+            "label": "Head Chief"
+          },
+          {
+            "id": "19",
+            "image": "/assets/images/chef3.png",
+            "name": "Miyoko Schinner\nHead chief",
+            "label": "Head Chief"
+          }
+        ]
+      }
+    },
+    {
+      "component": "GalleryComponent",
+      "data": {
+        "gallery":
+        {
+          "title": "gallery",
+          "image1": "/assets/images/pic1.png",
+          "image2": "/assets/images/pic2.png",
+          "image3": "/assets/images/pic3.png",
+          "image4": "/assets/images/pic4.png"
+        }
+      }
+    },
+    {
+      "component": "FormComponent",
+      "data": {
+        "title": "Reservation",
+        "forms": [
+          {
+            "id": 1,
+            "type": "text",
+            "label": "First Name",
+            "placeholder": "Juan",
+            "is_required": true
+          },
+          {
+            "id": 2,
+            "type": "text",
+            "label": "Last Name",
+            "placeholder": "Dela Cruz",
+            "is_required": true
+          },
+          {
+            "id": 3,
+            "type": "email",
+            "label": "Email",
+            "placeholder": "example@example.com",
+            "is_required": true
+          },
+          {
+            "id": 4,
+            "type": "tel",
+            "label": "Phone",
+            "placeholder": "+63",
+            "is_required": true
+          },
+          {
+            "id": 5,
+            "type": "number",
+            "label": "Number of Guest",
+            "placeholder": "1",
+            "is_required": false
+          },
+          {
+            "id": 6,
+            "type": "textarea",
+            "label": "Message",
+            "placeholder": "hello",
+            "is_required": false
+          },
+          {
+            "id": 6,
+            "time": "9:00 AM"
+          },
+          {
+            "id": 6,
+            "time": "10:00 AM"
+          },
+          {
+            "id": 6,
+            "time": "11:00 AM"
+          },
+          {
+            "id": 6,
+            "time": "12:00 AM"
+          }
+        ]
+      }
+    }
+  ]
+}

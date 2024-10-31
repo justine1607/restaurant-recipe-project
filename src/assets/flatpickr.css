@@ -1,0 +1,23 @@
+
+
+
+.flatpickr-calendar {
+    background-color: #000000;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.flatpickr-day {
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.flatpickr-day.today {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.flatpickr-day.selected {
+    background-color: #28a745;
+    color: #fff;
+}

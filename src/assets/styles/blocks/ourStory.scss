@@ -1,0 +1,42 @@
+@import "src/assets/styles/core/mixin";
+.block-story {
+  padding-top: 5rem;
+  .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+  .image-container {
+    img {
+      width: 100%;
+      object-fit: cover;
+      animation: fade 0.5s ease-in forwards;
+    }
+  }
+  .description-trans{
+     transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .description-trans.animate{
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .text{
+    grid-column: 2 / span 1;
+    .headline{border-bottom: 3px solid $color4;}
+    .description{padding-top: 2%}
+  }
+}
+@include screenMaxWidth(768px){
+  .block-story{
+    .grid{
+      grid-template-columns: 1fr;
+    }
+    .image-container{
+       grid-row: 2;
+    }
+    .text{
+      grid-column: span 1;
+    }
+  }
+
+}

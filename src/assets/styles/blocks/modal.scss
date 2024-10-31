@@ -1,0 +1,167 @@
+@import "src/assets/styles/core/mixin";
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-container {
+  border: 1px solid $color1;
+  background: $color5;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.modal-header {
+  grid-column: span 2;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.close-button {
+  cursor: pointer;
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+.modal-content {
+  grid-column: span 2;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+.flex-group{
+  display: flex;
+}
+.flex-item{
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: .5rem;
+  color: $color1;
+  font-family: $fontFamily1;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="datetime-local"] {
+  width: calc(100% - 16px);
+  padding: .8rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  box-sizing: border-box;
+  color: $color1;
+  font-family: $fontFamily1;
+}
+
+.reservation {
+  grid-column: span 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2rem;
+}
+
+.reservation-header {
+  flex: 1;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
+}
+
+.date-field {
+  width: 100%;
+}
+
+.date-event {
+  flex: 1;
+  min-width: 200px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1remx;
+  color: $color1;
+  font-family: $fontFamily1;
+}
+
+.time-button {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.first-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.time {
+  flex: 1;
+  padding: .8rem;
+  border: 1px solid $color1;
+  border-radius: 4px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.time-button .time:hover {
+  background-color: $color1;
+  color: #007bff;
+}
+.cta-container{
+  display: flex;
+}
+.modal-button {
+  padding: 1rem 2rem;
+  background: $color4;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;margin-right: 0;
+  &:hover {
+    background-color: $color2;
+    color: $color3;
+  }
+}
+
+@media (max-width: 600px) {
+  .modal-container {
+    padding: 1rem;
+    grid-template-columns: 1fr;
+  }
+
+  .reservation {
+    flex-direction: column;
+  }
+
+  .reservation-header {
+    margin-right: 0;
+  }
+
+  .date-event {
+    min-width: 100%;
+  }
+}

@@ -1,0 +1,55 @@
+@import "src/assets/styles/core/mixin";
+.block-chefs {
+  margin: 90px 0 50px;
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  .text-title{
+     grid-column: span 3;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     color: white;
+   }
+  .description-trans {
+    transform: translateX(-10%);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  .description-trans.animate {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  .card {
+    grid-column: span 1;
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
+    &.animate {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    img {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+    }
+    .text-container {
+      gap: 2%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .label{font-size: $fontSize;}
+    }
+  }
+}
+@media screen and (max-width: 768px){
+  .block-chefs {
+    .grid {
+      grid-template-columns: 1fr;
+      .text-title {
+        grid-column: span 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "navigation":{
+    "main": {
+      "id": 1,
+      "items": [
+        {
+          "id": 1,
+          "name": "submenu",
+          "children": [
+            {
+              "id": 1,
+              "name": "submenu",
+              "children": [],
+              "subject": {
+                "id": 2,
+                "title": "Sub Link 1.1",
+                "to": "/main-link-1/sub-link-1"
+              },
+              "label": "Sub Link 1.1",
+              "active": false
+            },
+            {
+              "id": 1,
+              "children": [],
+              "subject": {
+                "id": 2,
+                "title": "Sub Link 1.1",
+                "to": "/main-link-1/sub-link-1"
+              },
+              "label": "Sub Link 1.1",
+              "active": false
+            },
+            {
+              "id": 1,
+              "children": [],
+              "subject": {
+                "id": 2,
+                "title": "Sub Link 1.1",
+                "to": "/main-link-1/sub-link-1"
+              },
+              "label": "Sub Link 1.1",
+              "active": false
+            }
+          ],
+          "subject": {
+            "id": 1,
+            "title": "home",
+            "to": "/"
+          },
+          "label": "Home",
+          "active": false
+        },
+        {
+          "id": 2,
+          "name": "page",
+          "children":[],
+          "subject": {
+            "id": 3,
+            "title": "menu",
+            "to": "/menu"
+          },
+          "label": "Menu",
+          "active": false
+        },
+        {
+          "id": 3,
+          "name": "page",
+          "children":[],
+          "subject": {
+            "id": 3,
+            "title": "About",
+            "to": "/about"
+          },
+          "label": "About",
+          "active": false
+        },
+        {
+          "id": 4,
+          "name": "page",
+          "children":[],
+          "subject": {
+            "id": 4,
+            "title": "Recipe",
+            "to": "/recipe"
+          },
+          "label": "Recipe",
+          "active": false
+        }
+      ]
+    }
+  },
+  "footer": {
+    "id": 2,
+    "items": [
+      {
+        "id": 6,
+        "name": "page",
+        "children": [],
+        "subject": {
+          "id": 6,
+          "title": "",
+          "to": "/"
+        },
+        "label": "",
+        "active": false
+      },
+      {
+        "id": 7,
+        "name": "page",
+        "children": [],
+        "subject": {
+          "id": 7,
+          "title": "",
+          "to": "/"
+        },
+        "label": "",
+        "active": false
+      },
+      {
+        "id": 8,
+        "name": "page",
+        "children": [],
+        "subject": {
+          "id": 8,
+          "title": "",
+          "to": "/"
+        },
+        "label": "",
+        "active": false
+      }
+    ]
+  }
+}

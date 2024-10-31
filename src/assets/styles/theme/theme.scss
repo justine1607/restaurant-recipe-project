@@ -1,0 +1,410 @@
+@import "src/assets/styles/core/mixin";
+body.lightmode {
+  background: linear-gradient(to left, rgba(0, 90, 0, 0.5), rgba(0, 100, 0, 5));
+  transition: background 0.5s ease;
+}
+
+body:not(.lightmode) {
+  background: black;
+  transition: background 0.5s ease;
+}
+
+.brightness, .moon {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.brightness:hover, .moon:hover {
+  transform: scale(1.1);
+}
+
+.theme-container{
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  padding: 0 135px;
+  @include screenMaxWidth(950px){
+    padding: 0 75px;
+  }
+  @include screenMaxWidth(768px){
+    padding: 0 25px;
+  }
+}
+.theme-h1{@include typoH1;}
+.theme-h2{@include typoH2;}
+.theme-h3{@include typoH3;}
+.scroll-watcher {
+  height: 10px;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  background-color: #ffffff;
+  width: 100%;
+  scale: 0 1;
+  transform-origin: left;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+}
+//component button start------------------------
+.cta-container{
+  display: flex;
+}
+.button-container{
+  display:block;
+  padding: 1rem 2rem;
+  background: #D89756;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-top: auto;
+  &:hover {
+    background-color: #00ff00;
+    color: #000000;
+  }
+}
+.cta{
+  font-size: $fontSize;
+  font-family: "Cormorant Upright", serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  padding: 1rem 2rem;
+  background: #D89756;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-top: auto;
+  margin-left: auto;margin-right: 0;
+  &:hover {
+    background-color: #00ff00;
+    color: #000000;
+  }
+}
+//component button start end------------------------
+
+
+
+@keyframes scroll-watcher {
+  to {
+    scale: 1 1;
+  }
+}
+header {
+  z-index: 1;position: fixed;top: 0;
+  width: 100%;height: 60px;
+  transition: 0.6s;display: flex;justify-content: center;align-items: center;
+  &.sticky {
+    background: #00ff00;
+    color: black
+  }
+  .nav-grid {
+    display: flex;
+    gap: 51px;
+    justify-content: center;align-items: center;
+    nav {
+      display: flex;
+      position: relative;
+      ul {
+        display: flex;gap: 10rem;
+        .sticky {
+          color: #171717;
+          font-weight: 400;
+        }
+        .headline {
+          color: #ffffff;
+          transition: 0.3s;
+          transition-property: color, background;
+          &:hover{color: coral;}
+        }
+        a{
+          list-style-type: none;text-decoration: none;color: #ffffff;
+          font-size: 24px;font-family: "LXGW WenKai Mono TC", monospace;font-weight: 700;font-style: normal;
+          margin-left: 30px;padding: 0 30px;
+          transition: 0.3s;transition-property: color, background;
+          border-radius: 20px;
+          .sticky {
+            color: #171717;
+            font-weight: 400;
+          }
+        }
+      }
+      .hover-headline {
+        .sub-menu {
+          display: none;
+          opacity: 0;
+          position: absolute;top: 100%;left: 0;
+          width: 100%;
+          flex-direction: column;
+          li {
+            display: flex;flex-direction: column;
+            a {
+              padding: 1rem 0;
+              &:hover {
+                color: coral;
+                border: none;
+              }
+            }
+          }
+        }
+        &:hover ul {
+          display: block;
+          opacity: 1;
+        }
+      }
+    }
+    .menu-icon, .menu-x {
+      display: none;
+    }
+    .block{display: block;}
+    .toggle-light{
+      p{
+        display: none
+      }
+      .lightmode {
+        border: 1px solid $color2;
+        border-radius: 99px;
+        padding: 0.2rem 0.5rem;
+        li {
+          display: flex;
+          gap: 0.5rem;
+        }
+
+        img {
+          max-width: 2rem;
+        }
+      }
+    }
+
+  }
+}
+
+.footer-block {
+  background-image: url("/assets/images/wave.svg");
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 2rem;
+  position: relative;
+
+  .container {
+    width: 100%;
+    padding-inline: 135px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 51px;
+    row-gap: 0;
+    max-width: 1390px;
+    margin-inline: auto;
+  }
+
+  .soc-med {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / span 1;
+    grid-row: 2;
+
+    .icons {
+      display: flex;
+      gap: 10%;
+    }
+
+    a {
+      text-decoration: none;
+      margin-bottom: 10px;
+    }
+  }
+
+  .contact-info {
+    grid-column: 1 / span 1;
+    grid-row: 1;
+
+    .text {
+      font-size: $fontSize;
+      padding: 0.5em 0;
+    }
+
+    .info {
+      font-family: $fontFamily2;
+      padding-bottom: 0.5rem;
+    }
+  }
+
+  .restaurant-hours {
+    grid-column: 2 / span 1;
+
+    .opening {
+      line-height: 2;
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: $fontSize;
+    }
+  }
+
+  .contact-us {
+    grid-column: 3 / span 1;
+
+    .contact-form {
+      text-align: center;
+      padding-bottom: 10px;
+    }
+
+    .input-wrap {
+      padding-bottom: 1rem;
+
+      input, textarea {
+        width: 100%;
+        background: #595656;
+        border: none;
+        border-radius: 4px;
+        padding: 0.8rem;
+        font-family: "LXGW WenKai Mono TC", monospace;
+      }
+
+      input[type=text],
+      input[type=email],
+      input[type=number],
+      input[type=textarea] {
+        font-family: "LXGW WenKai Mono TC", monospace;
+        font-weight: 400;
+        font-size: 14px;
+      }
+    }
+
+    .cta {
+      @include screenMaxWidth(768px) {
+        margin: 2rem 0;
+      }
+    }
+  }
+}
+@media screen and (max-width: 954px) {
+  header{
+    width: 30%;height: 50%;
+    left: auto;right: 0;top: 0;
+    &.sticky{
+      background: transparent;
+    }
+    &.head{background: $color2;}
+    .nav-grid {
+     display: unset;
+      nav {
+        order: 2;
+        display: none;
+        position: unset;
+        &.navi{
+          display: block;
+          ul{
+            display: flex;flex-direction: column;gap: 2rem;
+            a{
+              padding: 2rem;
+            }
+            .mode{
+              display: flex;flex-direction: column;
+            }
+          }
+        }
+      }
+      .exmenu{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 2rem;
+      }
+      .menu{display: none}
+      .menu-icon {
+        display: block;
+        position: absolute;
+        top: 0;
+        flex-wrap: wrap;
+        right: 0;
+        z-index: 2222;
+        padding: 1rem;
+        &.naviClose{
+          display: none;
+        }
+      }
+      .toggle-light{
+        display: none;
+        &.is-visible{
+          display: inline-flex;align-items: center;
+          gap: 2rem;
+          border: 1px solid green;
+          border-radius: 99px;
+          padding: 0.2rem 0.5rem;
+        }
+        p{
+          display: block;
+        }
+        .apperance{
+          text-transform: capitalize;
+
+        }
+        .lightmode {
+          margin-right: auto;
+          &.is-ul-visible{
+            border: none;
+            border-radius: unset;
+          }
+          li {
+            display: flex;
+            gap: 0.5rem;
+          }
+
+          img {
+            max-width: 2rem;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  header{
+    width: unset;
+  }
+}
+@media  screen and (max-width: 375px) {
+  .footer-block {
+    .grid {
+      display: flex;
+    }
+
+    .soc-med {
+      grid-column: unset;
+      grid-row: unset;
+    }
+  }
+}
+@media screen and (max-width: 1460px) {
+  .footer-block{
+    .container {
+      padding-inline: 78px;
+      width: unset;
+    }
+  }
+}
+@media  screen and (max-width: 820px) {
+  .contact-info, .restaurant-hours, .contact-us{
+    display: none;
+  }
+  .soc-med{
+    grid-column: 3 / span 2;
+  }
+}
+@media screen and (max-width: 700px) {
+  .container{
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}

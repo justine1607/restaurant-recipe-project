@@ -1,0 +1,46 @@
+{
+  "type": "block",
+  "component": "SliderComponent",
+  "data": {
+    "slider": {
+    "id": "2",
+    "title": "5 Vegetarian Recipe Everyone will Enjoy",
+      "ctaTitle": "see recipe",
+      "ctaLink": "/",
+      "ctaTarget": "#",
+      "items":
+      [
+        {
+          "id": "1",
+          "image": "/assets/images/4.png",
+          "headline": "Lentil Frittata",
+          "text": "Perfect for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too."
+        },
+        {
+          "id": "2",
+          "image": "/assets/images/5.png",
+          "headline": "Chille",
+          "text": "for a hearty breakfast, lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too."
+        },
+        {
+          "id": "3",
+          "image": "/assets/images/6.png",
+          "headline": "Lentil Frittata",
+          "text": "lunch or dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too."
+        },
+        {
+          "id": "4",
+          "image": "/assets/images/7.png",
+          "headline": "Lentil Frittata",
+          "text": "dinner, this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too."
+        },
+        {
+          "id": "5",
+          "image": "/assets/images/8.png",
+          "headline": "Lentil Frittata",
+          "text": "this lentil frittata is an absolute favorite. The lentils add a nice nuttiness balanced by the potatoes and feta.To bring it all together, we top the frittata with chopped kalamata and green olives plus a good drizzle of olive oil. You can make this dish ahead of time and enjoy it for a few days since it keeps well in the fridge and reheats nicely, too."
+        }
+      ]
+    }
+  }
+}

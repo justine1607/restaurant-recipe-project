@@ -1,0 +1,14 @@
+{
+  "type": "block",
+  "component": "HeroComponent",
+  "data": {
+    "hero": {
+      "id": "6",
+      "image": "/assets/images/1.png",
+      "headline": "enjoy <span style='color: #D89756; font-weight: bold; text-decoration: underline; text-decoration-color: #28a745;'>delicious</span> food for a <span style='color: #D89756; font-weight: bold; text-decoration: underline; text-decoration-color: #28a745;'>healthy</span> living Lifestyle",
+      "head": "",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec scelerisque diam ac diam rutrum, nec vestibulum libero scelerisque. Donec nunc quam, bibendum id magna sit amet, mattis pretium mauris. Praesent a est eu arcu vulputate hendrerit sit amet ut tellus. Nulla facilisi. Morbi eleifend viverra risus, quis sagittis sem pellentesque ac.",
+      "button": "book a table"
+    }
+  }
+}

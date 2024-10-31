@@ -1,0 +1,33 @@
+{
+  "navigation": [
+    {
+      "label": "BLOG",
+      "classLabel": "first-label2",
+      "link": "#",
+      "sub_menu": {
+        "vlog1":"Blogartikel 01",
+        "vlog2": "Blogartikel 2",
+        "vlog3": "Blogartikel 3",
+        "vlog4": "Blogartikel 4"
+      }
+    },
+    {
+      "label": "TEAM",
+      "link": "#",
+      "classLabel": "first-label"
+    },
+    {
+      "label": "JOBS",
+      "link": "#",
+      "classLabel": "first-label"
+    },
+    {
+      "label": "KONTAKT",
+      "link": "#",
+      "classLabel": "first-label"
+    }
+  ],
+  "number": "+49 (0) 89 1234 5678 90",
+  "image_1": "/build/theme/images/logo.svg",
+  "image_2": "/build/theme/images/pfote.svg"
+}

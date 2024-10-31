@@ -1,0 +1,34 @@
+{
+  "component": "MainMenuComponent",
+  "data": {
+    "mainMenu": {
+      "title": "Main Menu",
+      "items": [
+        {
+          "id": "11",
+          "image": "/assets/images/image5.png",
+          "description": "Roasted Miniature Eggplant with CreamyT ahini and Plum Salsa",
+          "price": "₱210",
+          "cta": "check menu",
+          "ctaLink": "/menu"
+        },
+        {
+          "id": "12",
+          "image": "/assets/images/image5.png",
+          "description": "Warm Lentlis with Wilted Chard, Roasted Beefs and Goat Cheese",
+          "price": "₱210",
+          "cta": "check menu",
+          "ctaLink": "/menu"
+        },
+        {
+          "id": "13",
+          "image": "/assets/images/image5.png",
+          "description": "Chopsuey with Chicken and Broccoli",
+          "price": "₱210",
+          "cta": "check menu",
+          "ctaLink": "/menu"
+        }
+      ]
+    }
+  }
+}

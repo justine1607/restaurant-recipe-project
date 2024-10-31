@@ -1,0 +1,34 @@
+{
+  "component": "ReviewsComponent",
+  "data": {
+    "review": {
+      "title": " What people says about our dish",
+      "items": [
+        {
+          "id": "14",
+          "star": "/assets/images/svg-stars.png",
+          "colon": "/assets/images/svg-colon.png",
+          "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+          "avatar": "/assets/images/svg-colon.png",
+          "name": "costumer name"
+        },
+        {
+          "id": "15",
+          "star": "/assets/images/svg-stars.png",
+          "colon": "/assets/images/svg-colon.png",
+          "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+          "avatar": "/assets/images/svg-colon.png",
+          "name": "costumer name"
+        },
+        {
+          "id": "16",
+          "star": "/assets/images/svg-stars.png",
+          "colon": "/assets/images/svg-colon.png",
+          "description": "Lorem ipsum dolor sit amet,\nconsectetur adipiscing elit.\nAenean nec mattis quam. Morbi\nnon suscipit justo. Nam eu\nconsectetur dolor. Quisque ut\neleifend nibh. Donec ut massa\nelit. Sed quis.",
+          "avatar": "/assets/images/svg-colon.png",
+          "name": "costumer name"
+        }
+      ]
+    }
+  }
+}

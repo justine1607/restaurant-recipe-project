@@ -1,0 +1,24 @@
+{
+  "menus": [
+    {
+      "id": "1",
+      "headline": "Appetizers",
+      "image": "/assets/images/menus-images/1.png"
+    } ,
+    {
+      "id": "2",
+      "headline": "desserts",
+      "image": "/assets/images/menus-images/2.png"
+    } ,
+    {
+      "id": "3",
+      "headline": "drinks",
+      "image": "/assets/images/menus-images/3.png"
+    } ,
+    {
+      "id": "4",
+      "headline": "Main dishes",
+      "image": "/assets/images/menus-images/4.png"
+    }
+  ]
+}

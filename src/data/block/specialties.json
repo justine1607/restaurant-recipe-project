@@ -1,0 +1,38 @@
+{
+  "type": "block",
+  "component": "SpecialtiesComponent",
+  "data": {
+    "specialties":{
+    "id": "1",
+    "title": "house specialties",
+    "items":
+      [
+        {
+          "align": "left",
+          "id": "7",
+          "image": "/assets/images/image1.png",
+          "description": "Roasted Miniature Eggplant with CreamyT ahini and Plum Salsa",
+          "price": "₱210",
+          "starImg": "/assets/images/svg-stars.png"
+        },
+        {
+          "align": "center",
+          "id": "8",
+          "image": "/assets/images/image2.png",
+          "description": "Warm Lentlis with Wilted Chard, Roasted Beefs and Goat Cheese",
+          "price": "₱210",
+          "starImg": "/assets/images/svg-stars.png"
+
+        },
+        {
+          "align": "right",
+          "id": "9",
+          "image": "/assets/images/image3.png",
+          "description": "Chopsuey with Chicken and Broccoli",
+          "price": "₱210",
+          "starImg": "/assets/images/svg-stars.png"
+        }
+      ]
+    }
+  }
+}

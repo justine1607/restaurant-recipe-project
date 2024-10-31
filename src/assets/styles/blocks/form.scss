@@ -1,0 +1,123 @@
+@import "src/assets/styles/core/mixin";
+.form-block {
+    padding-top: 2rem;
+    .theme-h2 {
+      text-align: center;
+    }
+    .description-trans {
+      transform: translateX(-10%);
+      transition: opacity 1s ease-out, transform 1s ease-out;
+    }
+    .description-trans.animate {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    form {
+      padding: 20px;display: flex; border-radius: 8px;
+      border: 1px solid #FFFFFF;width: 100%; margin: 0 auto;
+      max-width: 1000px;
+      .form-grid {
+        display: flex;
+        gap: 20px;
+        @include screenMaxWidth(768px) {
+          display: block;
+          padding: 2em;
+        }
+        .left{
+          flex:8;
+          display: flex;flex-wrap: wrap;width: 100%;
+        }
+        .confirmation {
+          font-size: 1.8rem;
+          grid-column: 4/span 1;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-transform: capitalize;
+          @include screenMaxWidth(950px) {
+            grid-row: 5;
+            grid-column: 1/span 1;
+          }
+        }
+
+        .form-group {
+          label {
+            display: block;
+            color: #F5F5F5;
+            margin-bottom: 5px;
+            font-family: "LXGW WenKai Mono TC", monospace;
+          }
+          input[type="text"],
+          input[type="email"],
+          input[type="tel"],
+          input[type="number"],
+          input[type="date"],
+          input[type="textarea"],
+          textarea {
+            width: calc(100% - 16px);
+            padding: .8rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 14px;
+            box-sizing: border-box;
+            background: #595656;
+            color: #F5F5F5;
+            font-family: "LXGW WenKai Mono TC", monospace;
+          }
+        }
+      }
+      .right-grid {
+        flex: 7;
+        width: 100%;
+        .date-event {
+          grid-column: 1 / span 1;
+          grid-row: 1/span 2;
+        }
+
+        .theme-h3 {
+          font-size: 1.8rem
+        }
+
+        .first-row {
+          display: flex;
+          gap: 10px;
+          margin-bottom: 10px;
+        }
+
+        .time-button {
+          .time {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            background: none;
+            border-radius: 4px;
+            font-size: 14px;
+            cursor: pointer;
+            color: #F5F5F5;
+            font-family: "LXGW WenKai Mono TC", monospace;
+            transition: background-color 0.5s;
+
+            &:hover {
+              background-color: white;
+              color: #007bff;
+            }
+          }
+        }
+      }
+    }
+}
+@media (max-width: 600px) {
+  .modal-container {
+    padding: 10px;
+    grid-template-columns: 1fr;
+  }
+  .reservation {
+    flex-direction: column;
+  }
+  .reservation-header {
+    margin-right: 0;
+  }
+  .date-event {
+    min-width: 100%;
+  }
+}
